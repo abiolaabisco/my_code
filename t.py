@@ -3,7 +3,7 @@ s= stmtplib.SMTP('smtp.gmail.com', 587)
 s.startttls()
 s.ehol()
 username='abiolaabisco37gmail.com'
-password = '***********'
+password = '**********'
 s.login(username, password)
 replyto='abiolaabisco@yahoo.com'
 sendto = ['firstmail' , 'secondmail']
@@ -22,7 +22,7 @@ import time
 sensor1 =16
 sensor2 = 12
 sensor3 = 19
-sensor4 = 21
+sensor4 = 20
 buzzer= 18
 GPIO.setmode(GPIO.BOARD)
 GPIO.setup(sensor1,GPIO.IN)
